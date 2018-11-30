@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF428CB121B1379200E2C030 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428CB021B1379200E2C030 /* AppDelegate.m */; };
+		DF428CB421B1379200E2C030 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428CB321B1379200E2C030 /* ViewController.m */; };
+		DF428CB721B1379200E2C030 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF428CB521B1379200E2C030 /* Main.storyboard */; };
+		DF428CB921B1379300E2C030 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF428CB821B1379300E2C030 /* Assets.xcassets */; };
+		DF428CBC21B1379300E2C030 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF428CBA21B1379300E2C030 /* LaunchScreen.storyboard */; };
+		DF428CBF21B1379300E2C030 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428CBE21B1379300E2C030 /* main.m */; };
+		DF428CC921B1379300E2C030 /* ____UI__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428CC821B1379300E2C030 /* ____UI__Tests.m */; };
+		DF428CD421B1379300E2C030 /* ____UI__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF428CD321B1379300E2C030 /* ____UI__UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF428CC521B1379300E2C030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF428CA421B1379200E2C030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF428CAB21B1379200E2C030;
+			remoteInfo = "脸部扫描UI效果";
+		};
+		DF428CD021B1379300E2C030 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF428CA421B1379200E2C030 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF428CAB21B1379200E2C030;
+			remoteInfo = "脸部扫描UI效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF428CAC21B1379200E2C030 /* 脸部扫描UI效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "脸部扫描UI效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF428CAF21B1379200E2C030 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF428CB021B1379200E2C030 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF428CB221B1379200E2C030 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF428CB321B1379200E2C030 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF428CB621B1379200E2C030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF428CB821B1379300E2C030 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF428CBB21B1379300E2C030 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF428CBD21B1379300E2C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF428CBE21B1379300E2C030 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF428CC421B1379300E2C030 /* 脸部扫描UI效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "脸部扫描UI效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF428CC821B1379300E2C030 /* ____UI__Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UI__Tests.m"; sourceTree = "<group>"; };
+		DF428CCA21B1379300E2C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF428CCF21B1379300E2C030 /* 脸部扫描UI效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "脸部扫描UI效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF428CD321B1379300E2C030 /* ____UI__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UI__UITests.m"; sourceTree = "<group>"; };
+		DF428CD521B1379300E2C030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF428CA921B1379200E2C030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CC121B1379300E2C030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CCC21B1379300E2C030 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF428CA321B1379200E2C030 = {
+			isa = PBXGroup;
+			children = (
+				DF428CAE21B1379200E2C030 /* 脸部扫描UI效果 */,
+				DF428CC721B1379300E2C030 /* 脸部扫描UI效果Tests */,
+				DF428CD221B1379300E2C030 /* 脸部扫描UI效果UITests */,
+				DF428CAD21B1379200E2C030 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF428CAD21B1379200E2C030 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF428CAC21B1379200E2C030 /* 脸部扫描UI效果.app */,
+				DF428CC421B1379300E2C030 /* 脸部扫描UI效果Tests.xctest */,
+				DF428CCF21B1379300E2C030 /* 脸部扫描UI效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF428CAE21B1379200E2C030 /* 脸部扫描UI效果 */ = {
+			isa = PBXGroup;
+			children = (
+				DF428CAF21B1379200E2C030 /* AppDelegate.h */,
+				DF428CB021B1379200E2C030 /* AppDelegate.m */,
+				DF428CB221B1379200E2C030 /* ViewController.h */,
+				DF428CB321B1379200E2C030 /* ViewController.m */,
+				DF428CB521B1379200E2C030 /* Main.storyboard */,
+				DF428CB821B1379300E2C030 /* Assets.xcassets */,
+				DF428CBA21B1379300E2C030 /* LaunchScreen.storyboard */,
+				DF428CBD21B1379300E2C030 /* Info.plist */,
+				DF428CBE21B1379300E2C030 /* main.m */,
+			);
+			path = "脸部扫描UI效果";
+			sourceTree = "<group>";
+		};
+		DF428CC721B1379300E2C030 /* 脸部扫描UI效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DF428CC821B1379300E2C030 /* ____UI__Tests.m */,
+				DF428CCA21B1379300E2C030 /* Info.plist */,
+			);
+			path = "脸部扫描UI效果Tests";
+			sourceTree = "<group>";
+		};
+		DF428CD221B1379300E2C030 /* 脸部扫描UI效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF428CD321B1379300E2C030 /* ____UI__UITests.m */,
+				DF428CD521B1379300E2C030 /* Info.plist */,
+			);
+			path = "脸部扫描UI效果UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF428CAB21B1379200E2C030 /* 脸部扫描UI效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF428CD821B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果" */;
+			buildPhases = (
+				DF428CA821B1379200E2C030 /* Sources */,
+				DF428CA921B1379200E2C030 /* Frameworks */,
+				DF428CAA21B1379200E2C030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "脸部扫描UI效果";
+			productName = "脸部扫描UI效果";
+			productReference = DF428CAC21B1379200E2C030 /* 脸部扫描UI效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF428CC321B1379300E2C030 /* 脸部扫描UI效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF428CDB21B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果Tests" */;
+			buildPhases = (
+				DF428CC021B1379300E2C030 /* Sources */,
+				DF428CC121B1379300E2C030 /* Frameworks */,
+				DF428CC221B1379300E2C030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF428CC621B1379300E2C030 /* PBXTargetDependency */,
+			);
+			name = "脸部扫描UI效果Tests";
+			productName = "脸部扫描UI效果Tests";
+			productReference = DF428CC421B1379300E2C030 /* 脸部扫描UI效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF428CCE21B1379300E2C030 /* 脸部扫描UI效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF428CDE21B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果UITests" */;
+			buildPhases = (
+				DF428CCB21B1379300E2C030 /* Sources */,
+				DF428CCC21B1379300E2C030 /* Frameworks */,
+				DF428CCD21B1379300E2C030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF428CD121B1379300E2C030 /* PBXTargetDependency */,
+			);
+			name = "脸部扫描UI效果UITests";
+			productName = "脸部扫描UI效果UITests";
+			productReference = DF428CCF21B1379300E2C030 /* 脸部扫描UI效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF428CA421B1379200E2C030 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "陈伟杰";
+				TargetAttributes = {
+					DF428CAB21B1379200E2C030 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					DF428CC321B1379300E2C030 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF428CAB21B1379200E2C030;
+					};
+					DF428CCE21B1379300E2C030 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = DF428CAB21B1379200E2C030;
+					};
+				};
+			};
+			buildConfigurationList = DF428CA721B1379200E2C030 /* Build configuration list for PBXProject "脸部扫描UI效果" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF428CA321B1379200E2C030;
+			productRefGroup = DF428CAD21B1379200E2C030 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF428CAB21B1379200E2C030 /* 脸部扫描UI效果 */,
+				DF428CC321B1379300E2C030 /* 脸部扫描UI效果Tests */,
+				DF428CCE21B1379300E2C030 /* 脸部扫描UI效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF428CAA21B1379200E2C030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF428CBC21B1379300E2C030 /* LaunchScreen.storyboard in Resources */,
+				DF428CB921B1379300E2C030 /* Assets.xcassets in Resources */,
+				DF428CB721B1379200E2C030 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CC221B1379300E2C030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CCD21B1379300E2C030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF428CA821B1379200E2C030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF428CB421B1379200E2C030 /* ViewController.m in Sources */,
+				DF428CBF21B1379300E2C030 /* main.m in Sources */,
+				DF428CB121B1379200E2C030 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CC021B1379300E2C030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF428CC921B1379300E2C030 /* ____UI__Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF428CCB21B1379300E2C030 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF428CD421B1379300E2C030 /* ____UI__UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF428CC621B1379300E2C030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF428CAB21B1379200E2C030 /* 脸部扫描UI效果 */;
+			targetProxy = DF428CC521B1379300E2C030 /* PBXContainerItemProxy */;
+		};
+		DF428CD121B1379300E2C030 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF428CAB21B1379200E2C030 /* 脸部扫描UI效果 */;
+			targetProxy = DF428CD021B1379300E2C030 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF428CB521B1379200E2C030 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF428CB621B1379200E2C030 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF428CBA21B1379300E2C030 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF428CBB21B1379300E2C030 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF428CD621B1379300E2C030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF428CD721B1379300E2C030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF428CD921B1379300E2C030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF428CDA21B1379300E2C030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF428CDC21B1379300E2C030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/脸部扫描UI效果.app/脸部扫描UI效果";
+			};
+			name = Debug;
+		};
+		DF428CDD21B1379300E2C030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/脸部扫描UI效果.app/脸部扫描UI效果";
+			};
+			name = Release;
+		};
+		DF428CDF21B1379300E2C030 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "脸部扫描UI效果";
+			};
+			name = Debug;
+		};
+		DF428CE021B1379300E2C030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4C732G6M6;
+				INFOPLIST_FILE = "脸部扫描UI效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zonex.----UI--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "脸部扫描UI效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF428CA721B1379200E2C030 /* Build configuration list for PBXProject "脸部扫描UI效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF428CD621B1379300E2C030 /* Debug */,
+				DF428CD721B1379300E2C030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF428CD821B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF428CD921B1379300E2C030 /* Debug */,
+				DF428CDA21B1379300E2C030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF428CDB21B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF428CDC21B1379300E2C030 /* Debug */,
+				DF428CDD21B1379300E2C030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF428CDE21B1379300E2C030 /* Build configuration list for PBXNativeTarget "脸部扫描UI效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF428CDF21B1379300E2C030 /* Debug */,
+				DF428CE021B1379300E2C030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF428CA421B1379200E2C030 /* Project object */;
+}
